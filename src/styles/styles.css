@@ -1,0 +1,61 @@
+#app{
+  font: 14px 'Helvetica Neue',Helvetica, Arial, sans-serif;
+  color:#4d4d4d;
+  min-width: 550px;
+  max-width:850px ;
+  margin: 0 auto;
+}
+
+a.active{
+  color:orange;
+}
+
+nav{
+  padding-top:20px;
+  float: right;
+}
+
+#logo{
+  margin: 10px;
+  height:80px;
+  width: 150px;
+}
+
+#searchinput{
+  width:90%;
+  float: left;
+  margin-right: 10px;
+
+}
+
+#homepagecontainer{
+  margin-top: 10px;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+div.loader{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
